@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\College\DE\exp1\simulation\qsim
+vgates
+Z1 I]_45GeQjK73<eGWPgGQB]3
+Z2 VC@zSa@]P[e?LeQO0JmHEz0
+Z3 dE:\College\DE\exp1\simulation\qsim
+Z4 w1763609351
+Z5 8gates.vo
+Z6 Fgates.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 >6azzJTD??MN3gB<VjCAA3
+!s85 0
+Z10 !s108 1763609352.739000
+Z11 !s107 gates.vo|
+Z12 !s90 -work|work|gates.vo|
+!s101 -O0
+vgates_vlg_check_tst
+!i10b 1
+!s100 T27knEe@Vg[:Kmzg01LiM2
+IGBE1D4E^<gh2PAP^K<Rkl3
+VbGoOo`E:XJgS38m^:ji=c3
+R3
+Z13 w1763609350
+Z14 8Waveform1.vwf.vt
+Z15 FWaveform1.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1763609352.783000
+Z17 !s107 Waveform1.vwf.vt|
+Z18 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R8
+vgates_vlg_sample_tst
+!i10b 1
+!s100 YOUW9D_YAgeD]O3zM=7Sh0
+IGDH4kOk;``<SDL@<XEc6N1
+Vbl=G0;kR4Pm^RdChNh?]n2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vgates_vlg_vec_tst
+!i10b 1
+!s100 1zbfdXQ@[H=EKdYdzQIg>0
+IL=50J?MDgWzhFozTIRAbV1
+VSGi@DH;lT9:LzeSZCWEia2
+R3
+R13
+R14
+R15
+L0 316
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

@@ -1,0 +1,163 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+
+// 
+// Device: Altera EP4CE15F23C6 Package FBGA484
+// 
+
+//
+// This file contains Fast Corner delays for the design using part EP4CE15F23C6,
+// with speed grade M, core voltage 1.2V, and temperature 0 Celsius
+//
+
+// 
+// This SDF file should be used for ModelSim (Verilog) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "gates")
+  (DATE "11/20/2025 08:56:26")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus II 64-Bit")
+  (VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition")
+  (DIVIDER .)
+  (TIMESCALE 1 ps)
+
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE f1\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (596:596:596) (670:670:670))
+        (IOPATH i o (1637:1637:1637) (1617:1617:1617))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE f2\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (334:334:334) (381:381:381))
+        (IOPATH i o (1742:1742:1742) (1715:1715:1715))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE f3\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (2284:2284:2284) (2063:2063:2063))
+        (IOPATH i o (1667:1667:1667) (1687:1687:1687))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE f4\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (857:857:857) (746:746:746))
+        (IOPATH i o (1725:1725:1725) (1752:1752:1752))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE f5\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (381:381:381) (334:334:334))
+        (IOPATH i o (1755:1755:1755) (1782:1782:1782))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE f6\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (168:168:168) (192:192:192))
+        (IOPATH i o (1655:1655:1655) (1663:1663:1663))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_obuf")
+    (INSTANCE f7\~output)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (382:382:382) (333:333:333))
+        (IOPATH i o (2693:2693:2693) (2576:2576:2576))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_ibuf")
+    (INSTANCE b\~input)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (298:298:298) (678:678:678))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_ibuf")
+    (INSTANCE a\~input)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (328:328:328) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_lcell_comb")
+    (INSTANCE f1\~0)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1469:1469:1469) (1645:1645:1645))
+        (PORT datad (1894:1894:1894) (2129:2129:2129))
+        (IOPATH dataa combout (166:166:166) (163:163:163))
+        (IOPATH datad combout (68:68:68) (63:63:63))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_lcell_comb")
+    (INSTANCE f2\~0)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1469:1469:1469) (1645:1645:1645))
+        (PORT datad (1893:1893:1893) (2129:2129:2129))
+        (IOPATH dataa combout (170:170:170) (163:163:163))
+        (IOPATH datad combout (68:68:68) (63:63:63))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_lcell_comb")
+    (INSTANCE f6\~0)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (1469:1469:1469) (1645:1645:1645))
+        (PORT datad (1893:1893:1893) (2129:2129:2129))
+        (IOPATH dataa combout (186:186:186) (180:180:180))
+        (IOPATH datad combout (68:68:68) (63:63:63))
+      )
+    )
+  )
+)
