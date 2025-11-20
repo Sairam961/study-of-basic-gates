@@ -78,9 +78,10 @@ assign f7=~(a^b);
 endmodule
 ```
 
-``` Developed by: R.Sairam
+```
+Developed by: R.Sairam
  
- RegisterNumber: 25000694
+RegisterNumber: 25000694
 ```
  
 **Logic symbol & Truthtable**
